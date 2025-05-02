@@ -9,7 +9,7 @@ function calcularConsumoDeRacao(nome, peso,estoque){
     console.log(`Nome do Dog: ${nome} `)
     console.log(`Peso do Dog: ${peso} kg`)
     console.log(`Quantidade de Razão recomendada por dia: ${qtdDiariaRacao} g`)
-    console.log(`Quantidade de dias que o estoque vai durar: ${parseInt(durarEstoque)} g`)
+    console.log(`Quantidade de dias que o estoque vai durar: ${Math.floor(durarEstoque)} g`)
     console.log('======================================================')
 }
 
