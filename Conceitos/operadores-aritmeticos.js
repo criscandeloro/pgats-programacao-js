@@ -36,3 +36,6 @@ console.log(7%2)
 console.log(4*2+3)
 console.log(+"5"*2)
 
+console.log("imprimir o inteiro")
+console.log(parseInt(11/2))
+
