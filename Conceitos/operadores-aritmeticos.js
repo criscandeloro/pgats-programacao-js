@@ -39,3 +39,12 @@ console.log(+"5"*2)
 console.log("imprimir o inteiro")
 console.log(parseInt(11/2))
 
+console.log("Arrendondamento")
+
+//Math.floor (arredondamento para baixo)
+//Math.round (arrendonamento para cima - para o mais próximo)
+
+console.log(Math.round(5.8))
+console.log(Math.floor(5.8))
+console.log(Math.round(5.4))
+console.log(Math.floor(5.4))
