@@ -20,3 +20,9 @@
  pesoDoTutor--
  console.log(pesoDoTutor)
 
+ console.log("ternário")
+
+ const porte = pesoDoDog <=10 ? 'pequeno' : 'médio'
+// <condicao> ? <acao se verdade> : <acao se falsa>
+
+console.log(porte)
