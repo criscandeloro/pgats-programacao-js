@@ -48,3 +48,12 @@ console.log(Math.round(5.8))
 console.log(Math.floor(5.8))
 console.log(Math.round(5.4))
 console.log(Math.floor(5.4))
+
+console.log("Qtd de casas decimais depois da vírgula")
+
+const valorDecimal = 2.2348966520
+
+console.log(valorDecimal.toFixed(3)) 
+
+console.log ("Arredonda para cima")
+console.log(Math.ceil(valorDecimal))
