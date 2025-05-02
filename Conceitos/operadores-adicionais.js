@@ -26,3 +26,12 @@
 // <condicao> ? <acao se verdade> : <acao se falsa>
 
 console.log(porte)
+
+const pesoDoDogTernario = 21
+const porteDog = pesoDoDogTernario <= 10
+                 ? 'pequeno'
+                 : pesoDoDogTernario <=20
+                 ? 'medio'
+                 : 'grande'
+
+ console.log("Porte do Dog:", porteDog)                
