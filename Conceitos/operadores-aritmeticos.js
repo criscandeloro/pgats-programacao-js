@@ -25,7 +25,8 @@ console.log(`11 % 2 = ${11 % 2}`) // 1
 console.log("exponencial")
 console.log(`4 ** 4 = ${4 ** 4}`) //256
 
-console.log(2+3*4)
+console.log(2+3*4) // precedencia - ordem de execucao - primeiro mult. depois soma
+console.log((2+3)*4) // primeiro a soma pq está dentro do parenteses depois a mult.
 
 //3*4 == 12
 //12+2 == 14
