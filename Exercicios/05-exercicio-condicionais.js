@@ -1,5 +1,5 @@
-porteDoDog('Thor', 5.5)
-porteDoDog('Cris', 21)
+classificarPortePorPeso('Thor', 5.5)
+classificarPortePorPeso('Cris', 21)
 
 /*const porteDog = pesoDoDogTernario <= 10
                  ? 'pequeno'                
@@ -10,7 +10,7 @@ porteDoDog('Cris', 21)
  console.log(`Nome do Dog: Thor - Peso do Dog: ${pesoDoDogTernario} - Porte do Dog: ${porteDog}`)
 */
 
-function porteDoDog(nome, peso){
+function classificarPortePorPeso(nome, peso){
     const porteDog = peso <= 10
     ? 'pequeno'                
     : 'medio'
