@@ -1,5 +1,5 @@
 const nome = 'Pantera'
-const porte = 'Pequeno'
+const porte = 'Médio'
 const tempo = 30
 
 let atividade
@@ -29,4 +29,4 @@ if(tempo < 15){
     }
 
 
-console.log (`${mensagem}: ${atividade} `)
+console.log (`${mensagem}: [${atividade}] `)
