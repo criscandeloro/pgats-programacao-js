@@ -15,7 +15,8 @@ switch (porte){
         atividade = 'correr no parque'
         break
     default:
-        atividade = 'porte inválido'        
+        atividade = 'porte inválido' 
+        break       
 
 }
 
