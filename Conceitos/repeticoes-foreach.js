@@ -51,3 +51,4 @@
  listaDeAlunosEnotas.forEach(aluno =>{
     console.log(`O aluno ${aluno.nome} tem a nota ${aluno.nota}`)
  })
+
