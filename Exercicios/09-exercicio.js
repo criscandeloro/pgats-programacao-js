@@ -19,5 +19,6 @@ brinquedos.forEach(brinquedo /*conteudo da posição na lista*/ =>
 
     }
 )
+    console.log("Todos os brinquedos foram entregues")
 }
 
